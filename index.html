@@ -3,33 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
+    <!-- <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=65249c34c9bda500128cb17f&product=inline-follow-buttons&source=platform" async="async"></script> -->
     <title>Inicio</title>
 </head>
-<body>
+
+<body id="background">
+    
     <header>
-        <h1>Bienvenido a Mi Sitio Web</h1>
-        <nav>
-            <ul>
-                <li class="nav-list-item"><a href="index.html">Inicio</a></li>
-                <li class="nav-list-item"><a href="./paginas/acerca.html">Acerca de</a></li>
-                <li class="nav-list-item"><a href="./paginas/servicios.html">Servicios</a></li>
-                <li class="nav-list-item"><a href="./paginas/portfolio.html">Portafolio</a></li>
-                <li class="nav-list-item"><a href="./paginas/contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-        
+        <Div>
+            <h1>Bienvenido a CafeHolics</h1>
+        </Div>
+        <div>
+            <nav>
+                <ul class="nav-list">
+                    <li class="nav-list-item"><a href="index.html">Inicio</a></li>
+                    <li class="nav-list-item"><a href="./paginas/acerca.html">Acerca de</a></li>
+                    <li class="nav-list-item"><a href="./paginas/servicios.html">Servicios</a></li>
+                    <li class="nav-list-item"><a href="./paginas/portfolio.html">Portafolio</a></li>
+                    <li class="nav-list-item"><a href="./paginas/contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
-        <h2>¡Hola Mundo!</h2>
-        <p>Bienvenido a mi sitio web. Aquí encontrarás información sobre nuestros servicios y cómo ponerte en contacto con nosotros.</p>
+        <div class="home-intro">
+            <Div>
+                <div>
+                <h2>Bienvenido a CafeHolics</h2>
+                </div>
+                <div>
+                <p>¿Eres un amante del café? ¡Estás en el lugar correcto! En CafeHolics, nos apasiona el café tanto como tú.
+                    Nos enorgullece ofrecer la más alta calidad de granos de café,
+                    tostados con amor y cuidado para brindarte la experiencia de café perfecta en cada taza.</p>
+                </div>
+            </Div>
+            <div>
+                <div>
+                <h2>Nuestro Café</h2>
+                </div>
+                <div>
+                <p>Explora nuestra selección de café de origen único de todo el mundo. Cada uno de nuestros granos de café tiene una historia que contar y un sabor único que deleitará tus sentidos.
+                    Desde los suaves y afrutados granos de Etiopía hasta los ricos y robustos granos de Colombia, encontrarás una amplia variedad de opciones para satisfacer tu paladar.</p>
+                </div>
+            </Div>
+        </div>
+        
+        <div class="video-intro">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/i6n5AVIV8j8?si=JO08PCZLkWlPabd2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+
+        <div class="bloques-intro home-intro">
+            <div>
+                <h2>Tueste Fresco</h2>
+                <p>Creemos en la frescura del café. Por eso, tostamos nuestros granos de café de manera artesanal en pequeños lotes para garantizar que cada taza que prepares esté llena de sabor y aroma. Nuestro compromiso con la calidad significa que siempre obtendrás café recién tostado y lleno de sabor.</p>
+            </div>
+            <div>
+                <img src="./imagenes/Tipos-de-Tueste.jpg" alt="Tipos-de-Tueste">
+            </div>
+        </div>
+
+        <div class="bloques-intro home-intro reverse">
+            <div>
+                <h2>Envío Rápido</h2>
+                <p>Sabemos que no puedes esperar para disfrutar de tu café. Por eso, ofrecemos envío rápido y confiable a toda España. Tu café estará en tus manos en tiempo récord para que puedas disfrutarlo en la comodidad de tu hogar.</p>
+            </div>
+            <div>
+                <img src="./imagenes/envio_rapido-removebg-preview.png" alt="envio rapido">
+            </div>
+        </div>
+
+        <div class="bloques-intro home-intro">
+            <div>
+                <h2>Más que Café</h2>
+                <p>En CafeHolics, no solo vendemos café, sino que también te ofrecemos una experiencia completa. Descubre nuestras recetas y consejos para preparar el café perfecto en casa. Únete a nuestra comunidad de amantes del café y comparte tus experiencias y recetas favoritas.</p>
+            </div>
+            <div>
+                <img src="./imagenes/mas-que-cafe.jpg" alt="mas que cafe">
+            </div>
+        </div>
+
+        <div class="contact-intro">
+            <div>
+                <h2>Contacto</h2>
+                <p>¿Tienes alguna pregunta o necesitas ayuda para elegir el café perfecto para ti? No dudes en ponerte en contacto con nuestro equipo amable y conocedor. Estamos aquí para ayudarte a encontrar el café ideal que se adapte a tus gustos y necesidades.</p>
+            </div>
+        </div>
+        <div id="button">
+            <a href="./paginas/contacto.html">¡Contactanos!</a>
+        </div>
     </main>
 
     <footer>
+        <!-- <div class="sharethis-inline-follow-buttons"></div> -->
         <p>Copyright © 2023| All Rights Reserved
             Site Design by Jesus Salazar</p>
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
