@@ -131,6 +131,8 @@ h2 {
 }
 
 .acerca-texto {
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
   align-items: baseline;
   text-align: center;
   border: 2px #333 solid;
@@ -150,8 +152,17 @@ h2 {
 .acerca-imagenes img {
   max-width: 300px;
   max-height: auto;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
 }
 
+@media (max-width: 992px) {
+  .acerca-imagenes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
 .title-services {
   grid-area: title;
   text-align: center;
@@ -159,14 +170,23 @@ h2 {
 
 .service-one {
   grid-area: one;
+  background-color: rgb(235, 218, 132);
+  margin: 0px;
+  padding: 20px;
 }
 
 .service-two {
   grid-area: two;
+  background-color: rgb(235, 218, 132);
+  margin: 0px;
+  padding: 20px;
 }
 
 .service-three {
   grid-area: three;
+  background-color: rgb(235, 218, 132);
+  margin: 0px;
+  padding: 0px;
 }
 
 .services {
@@ -198,6 +218,12 @@ h2 {
   font-size: 1rem;
 }
 
+@media (max-width: 992px) {
+  .project img {
+    max-width: 100%;
+    height: auto;
+  }
+}
 .contact-grid {
   display: grid;
   grid-template-columns: repeat(2, 0.5fr);
@@ -240,6 +266,12 @@ textarea {
 
 input[type=submit] {
   width: 100%;
+}
+
+@media (max-width: 992px) {
+  .contact-grid {
+    display: flex;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

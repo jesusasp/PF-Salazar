@@ -4,12 +4,15 @@
 }
 .service-one {
     grid-area: one;
+    @include colores(rgb(235, 218, 132), 0px, 20px,)
 }
 .service-two {
     grid-area: two;
+    @include colores(rgb(235, 218, 132), 0px, 20px,)
 }
 .service-three {
     grid-area: three;
+    @include colores(rgb(235, 218, 132), 0px, 0px,)
 }
 
 .services {

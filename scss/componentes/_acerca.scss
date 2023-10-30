@@ -1,5 +1,6 @@
 .acerca-texto {
     @extend %grillas;
+    @include sombra(4px, 4px, 4px, rgba(0.4, 0.4, 0.4, 0.4));
     align-items: baseline;
     text-align: center;
     border: 2px $bg-ppl solid;
@@ -19,5 +20,13 @@
     img {
         max-width: 300px;
         max-height: auto;
+        @include sombra(4px, 4px, 4px, rgba(0.4, 0.4, 0.4, 0.4));
+    }
+}
+@media (max-width: 992px) {
+    .acerca-imagenes {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
     }
 }

@@ -1,0 +1,10 @@
+@mixin sombra($offset-x, $offset-y, $blur, $color) {
+    box-shadow: $offset-x $offset-y $blur $color;
+    -webkit-box-shadow: $offset-x $offset-y $blur $color;
+  }
+
+@mixin colores($bg, $mg, $pd){
+    background-color: $bg;
+    margin: $mg;
+    padding: $pd;
+}
