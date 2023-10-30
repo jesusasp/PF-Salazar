@@ -11,13 +11,13 @@
         height: auto;
     }
 }
+
 .acerca-imagenes {
     @extend %grillas;
     column-gap: 20px;
     grid-template-rows: 1fr 1fr;
-
-}
-.acerca-imagenes img{
-    max-width: 300px;
-    max-height: auto;
+    img {
+        max-width: 300px;
+        max-height: auto;
+    }
 }

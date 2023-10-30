@@ -86,6 +86,7 @@ h1 {
 
 h2 {
   margin: 0px;
+  text-align: center;
 }
 
 .bloques-intro, .video-intro, .home-intro {
@@ -100,6 +101,7 @@ h2 {
   grid-template-columns: 1fr 1fr;
   row-gap: 20px;
   justify-items: center;
+  align-items: center;
 }
 
 .home-intro {
@@ -145,10 +147,99 @@ h2 {
   column-gap: 20px;
   grid-template-rows: 1fr 1fr;
 }
-
 .acerca-imagenes img {
   max-width: 300px;
   max-height: auto;
+}
+
+.title-services {
+  grid-area: title;
+  text-align: center;
+}
+
+.service-one {
+  grid-area: one;
+}
+
+.service-two {
+  grid-area: two;
+}
+
+.service-three {
+  grid-area: three;
+}
+
+.services {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.5fr 1.5fr;
+  grid-template-areas: "title title title" "one two three";
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  gap: 20px;
+}
+
+.project {
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid brown;
+  text-align: center;
+}
+.project img {
+  max-width: 600px;
+  height: auto;
+}
+.project h3 {
+  font-size: 1.7rem;
+  margin: 10px;
+}
+.project p {
+  font-size: 1rem;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 0.5fr);
+  grid-template-rows: 0.5fr 1fr;
+  align-items: center;
+  text-align: center;
+}
+
+.map-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 75%;
+}
+.map-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+input[type=submit] {
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */

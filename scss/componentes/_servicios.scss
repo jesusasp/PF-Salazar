@@ -1,0 +1,25 @@
+.title-services {
+    grid-area: title;
+    text-align: center;
+}
+.service-one {
+    grid-area: one;
+}
+.service-two {
+    grid-area: two;
+}
+.service-three {
+    grid-area: three;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 1.5fr;
+    grid-template-areas: "title title title"
+    "one two three";
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    gap: 20px;
+}

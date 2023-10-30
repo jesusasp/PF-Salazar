@@ -3,6 +3,7 @@ $titulo: (
     decoration: none,
     margen: 0px,
     subtitulo-m: 0px,
+    alineacion: center,
 );
 
 $nav-bar: (
@@ -24,4 +25,5 @@ h1 {
 
 h2 {
     margin: map-get($titulo, subtitulo-m);
+    text-align: map-get($titulo, alineacion );
 }
