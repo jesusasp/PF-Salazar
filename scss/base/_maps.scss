@@ -1,0 +1,27 @@
+$titulo: (
+    titulo: 40px,
+    decoration: none,
+    margen: 0px,
+    subtitulo-m: 0px,
+);
+
+$nav-bar: (
+    paginas: 16px,
+    margen: 10px 0 10px 0,
+    relleno: 0px,
+);
+
+h1 {
+    font-size: map-get($titulo, titulo);
+    margin: map-get($titulo, margen);
+}
+
+.nav-list {
+    margin: map-get($nav-bar, margen );
+    text-size-adjust: map-get($nav-bar, paginas );
+    padding: map-get($nav-bar, relleno );
+}
+
+h2 {
+    margin: map-get($titulo, subtitulo-m);
+}

@@ -1,0 +1,154 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: wheat;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+header nav {
+  padding-left: 60px;
+}
+header nav ul {
+  list-style-type: none;
+  margin-top: 10px;
+}
+header nav ul li {
+  display: inline;
+  margin-right: 50px;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: #ddd;
+}
+header nav ul li a:hover {
+  border-bottom: 2px solid #ddd;
+}
+
+#button {
+  display: flex;
+  justify-content: center;
+  font-style: italic;
+}
+#button a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: brown;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+#button a:hover {
+  background-color: black;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+footer p {
+  margin: 0px;
+}
+
+div {
+  display: inline;
+}
+
+img {
+  max-width: 300px;
+  min-height: 200px;
+}
+
+h1 {
+  font-size: 40px;
+  margin: 0px;
+}
+
+.nav-list {
+  margin: 10px 0 10px 0;
+  text-size-adjust: 16px;
+  padding: 0px;
+}
+
+h2 {
+  margin: 0px;
+}
+
+.bloques-intro, .video-intro, .home-intro {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+  margin-top: 10px;
+}
+
+.acerca-imagenes, .acerca-texto {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 20px;
+  justify-items: center;
+}
+
+.home-intro {
+  gap: 20px;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.home-intro p {
+  width: 400px;
+}
+
+.bloques-intro {
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 40px;
+}
+
+.reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  text-align: center;
+}
+
+.contact-intro {
+  display: flex;
+  text-align: center;
+}
+
+.acerca-texto {
+  align-items: baseline;
+  text-align: center;
+  border: 2px #333 solid;
+  padding: 10px;
+}
+.acerca-texto p {
+  border: 2px #333 solid;
+  margin: 10px;
+  padding: 10px;
+  height: auto;
+}
+
+.acerca-imagenes {
+  column-gap: 20px;
+  grid-template-rows: 1fr 1fr;
+}
+
+.acerca-imagenes img {
+  max-width: 300px;
+  max-height: auto;
+}
+
+/*# sourceMappingURL=style.css.map */

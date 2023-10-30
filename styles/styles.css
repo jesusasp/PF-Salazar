@@ -65,6 +65,7 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px;
+    margin-top: 1rem;
 }
 
 /* Home page */
@@ -89,15 +90,6 @@ footer {
     margin-top: 20px;
 }
 
-
-/* estos se sobreescribe? */
-.bloques-intro {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    margin-top: 20px;
-    align-items: center;
-}
-
 .bloques-intro {
     display: flex;
     justify-content: space-evenly;
@@ -105,12 +97,6 @@ footer {
     text-align: center;
     flex-wrap: wrap;
 }
-
-/* no se porque esta parte si la pongo el texto se extiende mas, deberia usar porcentajes? */
-/* .bloques-intro p{
-    width: 600px;
-} */
-
 .reverse {
     display: flex;
     flex-direction: row-reverse;
@@ -141,14 +127,6 @@ footer {
     column-gap: 20px;
     justify-items: center;
 }
-
-
-/* No puedo centrar las imagenes con grid sin que se rompan */
-/* .acerca-imagenes {
-    display: flex;
-    flex-wrap: wrap;
-} */
-/* solucion? */
 .acerca-imagenes img{
     max-width: 300px;
     max-height: auto;
@@ -258,14 +236,6 @@ textarea {
 input[type="submit"] {
     width: 100%; 
 }
-
-
-
-
-/* .contact-grid .form{
-    display: flex;
-    text-align: end;
-} */
 
 /* media querie */
 @media (max-width: 992px) {

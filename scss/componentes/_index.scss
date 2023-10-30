@@ -1,0 +1,30 @@
+.home-intro{
+    @extend %disposicion;
+    gap: 20px;
+    text-align: center;
+    flex-wrap: wrap;
+    p {
+        width: 400px;
+    }
+}
+.video-intro {
+    @extend %disposicion;
+}
+
+.bloques-intro {
+    @extend %disposicion;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 40px;
+}
+
+.reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: center;
+}
+
+.contact-intro {
+    display: flex;
+    text-align: center;
+}
